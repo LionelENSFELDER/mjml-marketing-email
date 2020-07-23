@@ -1,27 +1,39 @@
 <mjml>
     <mj-head>
         <mj-attributes>
-            <mj-class name="bannerBtn" background-color="#F06402" color="#FFF" font-size="1.3rem" border-radius="20px" />
-            <mj-class name="regularBtn" background-color="#F06402" color="#FFF" font-size="1.1rem" border-radius="20px" />
+            <mj-class name="bigBtn" background-color="#F06402" color="#FFF" font-size="1.3rem" border-radius="20px" />
+            <mj-class name="regularBtn" background-color="#F06402" color="#FFF" font-size="1rem" border-radius="20px" />
             <mj-class name="oldPrice" color="#0A0A0A" font-size="1.1rem" text-decoration="line-through" align="right" line-height="unset"/>
             <mj-class name="newPrice" color="#F06402" font-size="2rem" font-weight="bold" text-decoration="none" align="right" line-height="unset"/>
             <mj-class name="newPriceInfo" color="#F06402" font-size="0.8rem" text-decoration="none" align="right" line-height="unset"/>
             <mj-class name="carInfo" color="#0A0A0A" font-size="1rem" line-height="unset"/>
+            <mj-class name="title-underline" color="#0A0A0A" font-size="1.2rem" font-weight="bold" text-decoration="underline" />
         </mj-attributes>
         <mj-style>
+            select {
+                width: 100%;
+                font-size: 0.7rem;
+                color: #DAD8D9;
+                border-radius: 5px;
+                padding: 5px;
+                
+            }
         </mj-style>
     </mj-head>
     <mj-body background-color="#FFFFFF">
+        <!-- WRAPPER -->
         <mj-wrapper>
+            <!-- feature SECTION -->
             <mj-section padding-top="50px" background-url="./assets/img/Confident young businessman in suit opens his car.png" background-size="cover">
                 <mj-column width="100%">
                     <mj-image src="./assets/img/logo.png" alt="" width="180px" align="left"/>
                 </mj-column>
                 <mj-column width="100%" padding-left="30%">
                     <mj-text align="right" font-size="25px" color="#FFF">Découvrez nos offres location longue durée réservées aux professionnels</mj-text>
-                    <mj-button align="right" mj-class="bannerBtn">EN SAVOIR PLUS</mj-button>
+                    <mj-button align="right" mj-class="bigBtn">EN SAVOIR PLUS</mj-button>
                 </mj-column>
             </mj-section>
+            <!-- blue SECTION -->
             <mj-section background-color="#FFF" padding="20px">
                 <mj-column width="100%" background-color="#01B1AF">
                     <mj-text color="#FFF" align="center">Location longue durée</mj-text> 
@@ -31,6 +43,7 @@
                     <mj-text color="#FFF" align="center">Entretien, assistance, véhicule de remplacement et perte finaciaire inclus</mj-text> 
                 </mj-column>
             </mj-section>
+            <!-- car grid SECTION 1 -->
             <mj-section>
                 <mj-group>
                     <mj-column>
@@ -57,31 +70,137 @@
                     </mj-column>
                 </mj-group>
             </mj-section>
+            <!-- car grid SECTION 2 -->
             <mj-section>
                 <mj-group>
                     <mj-column>
-                        <mj-text mj-class="oldPrice">253 €</mj-text>
-                        <mj-text mj-class="newPrice">211 €</mj-text>
+                        <mj-text mj-class="oldPrice">290 €</mj-text>
+                        <mj-text mj-class="newPrice">242 €</mj-text>
                         <mj-text mj-class="newPriceInfo">HT/mois*</mj-text>
                         <mj-image width="200px" height="100px" padding="0" src="./assets/img/tiguan.png" />
                         <mj-button align="right" mj-class="regularBtn">Voir l'offre</mj-button>
                         <mj-text align="center" mj-class="carInfo">
-                            <h2>RENAULT Scénic</h2>
-                            <p>Intens TCe 140 EDC FAP</p>
+                            <h2>VOLKSWAGEN Tiguan</h2>
+                            <p>Confortline Business</p>
                         </mj-text>
                     </mj-column>
                     <mj-column>
-                        <mj-text mj-class="oldPrice">272 €</mj-text>
-                        <mj-text mj-class="newPrice">226 €</mj-text>
+                        <mj-text mj-class="oldPrice">279 €</mj-text>
+                        <mj-text mj-class="newPrice">232 €</mj-text>
                         <mj-text mj-class="newPriceInfo">TTC/mois*</mj-text>
                         <mj-image width="200px" height="100px" padding="0" src="./assets/img/duster.png" />
                         <mj-button align="right" mj-class="regularBtn">Voir l'offre</mj-button>
                         <mj-text align="center" mj-class="carInfo">
-                            <h2>AUDI A1 Sportback</h2>
-                            <p>S Tronic 7 Business Line</p>
+                            <h2>DACIA Duster</h2>
+                            <p>Prestige Blue</p>
                         </mj-text>
                     </mj-column>
                 </mj-group>
+            </mj-section>
+            <!-- call to action big btn SECTION -->
+            <mj-section padding="0 10%">
+                <mj-column width="100%">
+                    <mj-button width="100%" align="center" mj-class="bigBtn">VOIR TOUTES LES OFFRES EN COURS</mj-button>
+                </mj-column>
+            </mj-section>
+            <!-- services SECTION -->
+            <mj-section>
+                <mj-column width="100%">
+                    <mj-text mj-class="title-underline"><span>PRESTATION INCLUSES</span></mj-text> 
+                </mj-column>
+            </mj-section>
+            <!-- services SECTION -->
+            <mj-section>
+                <mj-group>
+                    <mj-column>
+                        <mj-image width="50px" height="55px" padding="0" src="./assets/img/entretien.png" />
+                        <mj-text align="center">
+                            <h3>Entretien</h3>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image width="55px" height="55px" padding="0" src="./assets/img/assistance.png" />
+                        <mj-text align="center">
+                            <h3>Assistance 24h/24</h3>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image width="50px" height="55px" padding="0" src="./assets/img/remplacement.png" />
+                        <mj-text align="center">
+                            <h3>Véhicule de remplacement</h3>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-image width="50px" height="55px" padding="0" src="./assets/img/pertes.png" />
+                        <mj-text align="center">
+                            <h3>Pertes financière</h3>
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <!-- select cars SECTION -->
+            <mj-section background-color="#01B1AF" padding="25px">
+                <mj-group background-color="#FFF">
+                    <mj-column>
+                        <mj-text font-weight="bold">
+                            <p>Sélectionnez votre véhicule</p>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-raw>
+                            <select name="cars" id="cars">
+                                <option value="opel">VOLKSWAGEN Tiguan Confortline Business</option>
+                                <option value="volvo">RENAULT Scénic Intens TCe 140 EDC FA</option>
+                                <option value="saab">AUDI A1 Sportback S Tronic 7 Business Line</option>
+                                <option value="audi">DACIA Duster Prestige Blue</option>
+                            </select>
+                        </mj-raw>
+                    </mj-column>
+                    <mj-column>
+                        <mj-button mj-class="regularBtn">Voir l'offre</mj-button>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+            <!-- mentions SECTION -->
+            <mj-section background-color="#EEEEEE">
+                <mj-column width="100%" padding="0">
+                    <mj-text color="#C9C9C9" font-size="11px">
+                        <p>
+                            Offre reservée aux sociétés sous réserve d’acceptation de votre dossier 
+                            par LeasePlan et dans la limite des stocks disponibles. 
+                            Exemple de prix en Location Longue Durée sans option d’achat 
+                            de 36 mois et 10000 km avec un apport de 10% du prix du catalogue. 
+                            Loyer incluant la mise à disposition du véhicule neuf immatriculé, 
+                            la garantie perte financière, l’entretien & les réparations du véhicule ainsi 
+                            assistance 24h/24 & 7j/7 et le véhicule de remplacement en cas de panne, 
+                            accident ou vol. Sous réserve de variation de la fiscalité et de la disponibilité 
+                            ou tarif constructeur en vigueur. 
+                            Les informations tarifaires et fiscales sont fournies á titre indicatif. 
+                            Voir détail des conditions du contrat de location et de 
+                            l’assurance auprès de votre interlocuteur commercial. Visuel non contractuel.
+
+                        </p>
+                        <p>
+                            La garantie Perte financière est proposée par l’intermédiaire de la 
+                            Société de Courtages d'Assurances Groupe (S.C.A.G), S.A.R.L. 
+                            au capital de 200.000 Euros, immatriculée au R.C.S. de Nanterre 
+                            318 332 988 et à l’ORIAS sous le numéro 07027867, sous le 
+                            contrôle de l’ACPR, Autorité de Contrôle Prudentiel et de Résolution, 
+                            61 rue de Tailbout, 75436 Paris Cedex, entreprise régie par le code 
+                            des assurances, souscrite auprès de la Compagnie Euro Insurances Limited, 
+                            établie à Dublin, Irlande, ayant son siège social à Ground Floor, Block C, 
+                            LeasePlan House, Central Park, Leopardstown, Dublin 18, République d’Irlande, 
+                            ulée au Bureau d’Immatriculation des Sociétés d’Irlande sous le numéro 
+                            222 618, et régie par la Banque Centrale d’Irlande. 
+                            Ce contrat est distribué par la société LeasePlan France SAS. Siège social : 
+                            274 avenue Napoléon Bonaparte, 92562 Rueil-Malmaison Cedex. 
+                            RCS de Nanterre sous le numéro 313 606 477, 
+                            immatriculé auprès de l’Orias sous le numéro 15000946 
+                            en qualité de Mandataire d’intermédiaire d’assurance. 
+                            Les évènements garantis et les exclusions figurent au contrat.
+                        </p>
+                    </mj-text>
+                </mj-column>
             </mj-section>
         </mj-wrapper>
     </mj-body>
