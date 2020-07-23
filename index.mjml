@@ -6,10 +6,16 @@
             <mj-class name="oldPrice" color="#0A0A0A" font-size="1.1rem" text-decoration="line-through" align="right" line-height="unset"/>
             <mj-class name="newPrice" color="#F06402" font-size="2rem" font-weight="bold" text-decoration="none" align="right" line-height="unset"/>
             <mj-class name="newPriceInfo" color="#F06402" font-size="0.8rem" text-decoration="none" align="right" line-height="unset"/>
+            <mj-class name="carTitle" color="#0A0A0A" font-size="1rem" font-weight="bold" line-height="unset"/>
             <mj-class name="carInfo" color="#0A0A0A" font-size="1rem" line-height="unset"/>
             <mj-class name="title-underline" color="#0A0A0A" font-size="1.2rem" font-weight="bold" text-decoration="underline" />
+            <mj-class name="font-1.2" font-size="1.2rem"/>
+            <mj-class name="font-bold" font-weight="bold"/>
         </mj-attributes>
         <mj-style>
+            body{
+                line-height:1;
+            }
             select {
                 width: 100%;
                 font-size: 0.7rem;
@@ -24,7 +30,7 @@
         <!-- WRAPPER -->
         <mj-wrapper>
             <!-- feature SECTION -->
-            <mj-section padding-top="50px" background-url="./assets/img/Confident young businessman in suit opens his car.png" background-size="cover">
+            <mj-section padding-top="50px" background-url="./assets/img/banner-background.png" background-size="cover">
                 <mj-column width="100%">
                     <mj-image src="./assets/img/logo.png" alt="" width="180px" align="left"/>
                 </mj-column>
@@ -36,9 +42,9 @@
             <!-- blue SECTION -->
             <mj-section background-color="#FFF" padding="20px">
                 <mj-column width="100%" background-color="#01B1AF">
-                    <mj-text color="#FFF" align="center">Location longue durée</mj-text> 
-                    <mj-text color="#FFF" align="center">à partir de 36 mois et 10 000km</mj-text> 
-                    <mj-text color="#FFF" align="center">avec ou sans apport</mj-text>
+                    <mj-text color="#FFF" align="center" mj-class="font-1.2 font-bold" line-height="3px">Location longue durée</mj-text> 
+                    <mj-text color="#FFF" align="center" mj-class="font-1.2" line-height="3px">à partir de 36 mois et 10 000 km</mj-text> 
+                    <mj-text color="#FFF" align="center" mj-class="font-1.2 font-bold" line-height="3px">avec ou sans apport</mj-text>
                     <mj-divider border-width="1px" border-style="solid" border-color="#FFF" width="30%" />
                     <mj-text color="#FFF" align="center">Entretien, assistance, véhicule de remplacement et perte finaciaire inclus</mj-text> 
                 </mj-column>
@@ -52,8 +58,8 @@
                         <mj-text mj-class="newPriceInfo">HT/mois*</mj-text>
                         <mj-image width="200px" height="100px" padding="0" src="./assets/img/scenic.png" />
                         <mj-button align="right" mj-class="regularBtn">Voir l'offre</mj-button>
-                        <mj-text align="center" mj-class="carInfo">
-                            <h2>RENAULT Scénic</h2>
+                        <mj-text align="center" mj-class="carTitle">
+                            <h3>RENAULT Scénic</h3>
                             <p>Intens TCe 140 EDC FAP</p>
                         </mj-text>
                     </mj-column>
@@ -63,8 +69,8 @@
                         <mj-text mj-class="newPriceInfo">TTC/mois*</mj-text>
                         <mj-image width="200px" height="100px" padding="0" src="./assets/img/a1.png" />
                         <mj-button align="right" mj-class="regularBtn">Voir l'offre</mj-button>
-                        <mj-text align="center" mj-class="carInfo">
-                            <h2>AUDI A1 Sportback</h2>
+                        <mj-text align="center" mj-class="carTitle">
+                            <h3>AUDI A1 Sportback</h3>
                             <p>S Tronic 7 Business Line</p>
                         </mj-text>
                     </mj-column>
@@ -79,8 +85,8 @@
                         <mj-text mj-class="newPriceInfo">HT/mois*</mj-text>
                         <mj-image width="200px" height="100px" padding="0" src="./assets/img/tiguan.png" />
                         <mj-button align="right" mj-class="regularBtn">Voir l'offre</mj-button>
-                        <mj-text align="center" mj-class="carInfo">
-                            <h2>VOLKSWAGEN Tiguan</h2>
+                        <mj-text align="center" mj-class="carTitle">
+                            <h3>VOLKSWAGEN Tiguan</h3>
                             <p>Confortline Business</p>
                         </mj-text>
                     </mj-column>
@@ -90,8 +96,8 @@
                         <mj-text mj-class="newPriceInfo">TTC/mois*</mj-text>
                         <mj-image width="200px" height="100px" padding="0" src="./assets/img/duster.png" />
                         <mj-button align="right" mj-class="regularBtn">Voir l'offre</mj-button>
-                        <mj-text align="center" mj-class="carInfo">
-                            <h2>DACIA Duster</h2>
+                        <mj-text align="center" mj-class="carTitle">
+                            <h3>DACIA Duster</h3>
                             <p>Prestige Blue</p>
                         </mj-text>
                     </mj-column>
