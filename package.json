@@ -1,0 +1,24 @@
+{
+  "name": "integration-leaseplan",
+  "version": "1.0.0",
+  "description": "Test d'intégration email responsive en mjml.",
+  "main": "index.js",
+  "dependencies": {
+    "mjml": "^4.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "watch": "./node_modules/.bin/mjml -w index.mjml -o index-compiled.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionelENSFELDER/integration-leaseplan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LionelENSFELDER/integration-leaseplan/issues"
+  },
+  "homepage": "https://github.com/LionelENSFELDER/integration-leaseplan#readme"
+}
